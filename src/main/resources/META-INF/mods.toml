@@ -1,0 +1,36 @@
+modLoader="javafml" #mandatory
+loaderVersion="[40,)" #mandatory
+license="GNU Lesser General Public License v3.0"
+issueTrackerURL="https://github.com/Uraneptus/Sullys-Mod/issues"
+
+[[mods]] #mandatory
+modId = "ambience_expansion" #mandatory
+version = "${file.jarVersion}" #mandatory
+logoFile = "ambience_expansion_banner.png" #optional
+authors = "Uraneptus" #optional
+credits = "" #optional
+displayURL = ""
+displayName = "Ambience Expansion" #mandatory
+description = '''
+'''
+
+[[dependencies.ambience_expansion]] #optional
+modId="forge" #mandatory
+mandatory=true #mandatory
+versionRange="[40,)" #mandatory
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.ambience_expansion]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.18.2,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.ambience_expansion]]
+modId = "blueprint"
+mandatory = true
+versionRange = "[5.3.1,)"
+ordering = "BEFORE"
+side = "BOTH"
